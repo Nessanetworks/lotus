@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'Athelas-Regular';
+    src: url('../fonts/Athelas-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TrajanPro-Regular';
+    src: url('../fonts/TrajanPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media (max-width: 500px) {
+
+    body {
+        padding: 0;
+        margin: 0;
+        background-color: rgb(255, 239, 179);
+    }
+
+    /* DEFAULT IMG och SQUARE IMG class. */
+    img {
+        padding-top: 5vw;
+        padding-bottom: 5vw;
+        height: 75vw;
+        width: 48vw;
+        border-radius: 50vw;
+        object-fit: cover;
+    }
+
+    .squareIMG {
+        height: 75vw;
+        width: 80vw;
+        border-radius: 15vw;
+        object-fit: cover;
+        padding-top: 3vw;
+        padding-bottom: 3vw;
+    }
+
+
+    /*CSS FÖR INPUTFIELD FOR VAL 2, OTROHET*/
+
+    #inputContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #inputDiv {
+        margin-top: 4vw;
+    }
+
+    #submitButton {
+        background-color: rgb(26 62 26);
+        width: 45vw;
+        height: 13vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        border-radius: 50px;
+        box-shadow: rgb(13, 31, 13) 4px 4px 5px;
+        position: relative;
+        top: 0.6vw;
+    }
+
+    #submitButton:focus {
+        background-color: rgb(12, 35, 12);
+        box-shadow: none;
+    }
+
+    #codeInput {
+        height: 8vw;
+        width: 70vw;
+        margin-bottom: 5vw;
+        border: none;
+        background-color: rgba(26, 62, 26, 0.406);
+        color: rgb(255, 210, 223);
+        padding: 2vw;
+    }
+
+    #inputDiv img {
+        height: 25vw;
+        width: 25vw;
+        border-radius: 0;
+    }
+
+    #inputDiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0 5vw 0 5vw;
+    }
+
+    #inputDiv p {
+        color: rgb(145, 68, 91);
+    }
+
+
+    #wrapperOtro h4 {
+        font-size: 8vw;
+        font-family: "TrajanPro-Regular";
+
+    }
+
+    #wrapperOtro {
+        padding: 7vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(253 243 205);
+        background-image: url(../bilder/yellow.webp);
+        background-repeat: repeat;
+        padding-bottom: 10vw;
+    }
+
+    #wrapperOtro p {
+        font-size: 5.5vw;
+        line-height: 1.8;
+        font-family: "Athelas-Regular";
+        text-align: justify;
+    }
+
+    p#delpElement {
+        font-family: "TrajanPro-Regular";
+        font-size: 7vw;
+    }
+
+    #submitButton h5 {
+        color: rgb(255, 210, 223);
+        font-family: "TrajanPro-Regular";
+        font-size: 5vw;
+        position: relative;
+        top: 0.7vw;
+    }
+
+
+}

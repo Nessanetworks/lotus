@@ -1,0 +1,386 @@
+@font-face {
+    font-family: 'Athelas-Regular';
+    src: url('fonts/Athelas-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TrajanPro-Regular';
+    src: url('fonts/TrajanPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@media (max-width: 500px) {
+
+    html,
+    body {
+        background-color: rgb(26 62 26);
+        background-image: url('bilder/backgroundGreen25.png');
+        background-position: center;
+        background-repeat: repeat;
+        margin: 0;
+        padding: 0;
+    }
+
+    /*default img shape and size*/
+
+    img {
+        padding-top: 5vw;
+        padding-bottom: 5vw;
+        height: 75vw;
+        width: 48vw;
+        border-radius: 50vw;
+        object-fit: cover;
+    }
+
+    .squareIMG {
+        height: 75vw;
+        width: 80vw;
+        border-radius: 15vw;
+        object-fit: cover;
+        padding-top: 3vw;
+        padding-bottom: 3vw;
+    }
+
+    /*PopUP Fel Kod*/
+
+    #felKodPopup {
+        position: fixed;
+        top: 20%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 85vw;
+        max-width: 500px;
+        padding: 6vw;
+        background-color: rgba(234, 100, 100, 0.95);
+        color: white;
+        font-family: "Athelas-Regular", serif;
+        font-size: 5vw;
+        text-align: center;
+        border-radius: 20px;
+        z-index: 9999;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        transition: opacity 0.3s ease;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    /*SLUT POPUP*/
+
+
+
+    /*FÖRSTA SIDAN*/
+
+    #welcomeDiv {
+        height: 100%;
+        width: 100%;
+    }
+
+    #del1Div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #del1Div p {
+        font-size: 9vw;
+        font-family: "TrajanPro-Regular";
+        color: rgb(253 243 205);
+        position: relative;
+        bottom: 17vw;
+    }
+
+    #loggaWelcomeIMG {
+        height: 47vw;
+        width: 47vw;
+        position: relative;
+        top: 14vw;
+        margin-bottom: 0;
+        border-radius: 0;
+        padding-top: 0vw;
+        padding-bottom: 0vw;
+    }
+
+    #poster {
+        height: 100vw;
+        width: 54vw;
+        border-radius: 100px;
+        object-fit: cover;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    #del3Div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        bottom: 11vw;
+    }
+
+    #del3Div p {
+        color: rgb(234 200 129);
+        font-family: "Athelas-Regular";
+        font-size: 5vw;
+        position: relative;
+        bottom: 7vw;
+    }
+
+    /*SLUT FÖRSTA SIDA*/
+
+
+
+
+    /*BUTTON FOR YELLOW AND GREEN*/
+
+    .buttonYellow {
+        background-color: rgb(234 200 129);
+        width: 45vw;
+        height: 13vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        border-radius: 50px;
+        box-shadow: rgb(13, 31, 13) 5px 5px 6px;
+    }
+
+    .buttonYellow h6 {
+        position: relative;
+        top: 0.6vw;
+        color: black;
+        font-family: "TrajanPro-Regular";
+        font-size: 5vw;
+        margin: 3vw;
+    }
+
+    .buttonYellow:focus {
+        background-color: rgb(230, 186, 90);
+        box-shadow: none;
+    }
+
+    .buttonGreen {
+        background-color: rgb(26 62 26);
+        width: 45vw;
+        height: 13vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        border-radius: 50px;
+        box-shadow: rgb(13, 31, 13) 5px 5px 6px;
+    }
+
+    .buttonGreen h6 {
+        position: relative;
+        top: 0.6vw;
+        color: rgb(234 200 129);
+        font-family: "TrajanPro-Regular";
+        font-size: 5vw;
+    }
+
+    .buttonGreen:focus {
+        background-color: rgb(12, 35, 12);
+        box-shadow: none;
+    }
+
+
+
+
+
+
+
+    /*SPELINFORMATIONSSIDA - Alltså, andra sidan.*/
+
+    #spelInfoDiv img {
+        margin-top: 4vw;
+        height: 50vw;
+        width: 50vw;
+        border-radius: 0;
+    }
+
+    #spelInfoDiv {
+        background-color: rgb(26 62 26);
+        background-image: url('bilder/backgroundGreen25.png');
+        background-size: cover;
+        background-position: center;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        padding: 8vw;
+        padding-bottom: 13vw;
+    }
+
+    #spelInfoDiv h5 {
+        text-align: center;
+        font-family: "Athelas-Regular";
+        color: rgb(255, 235, 162);
+        line-height: 1.7;
+        font-size: 6.5vw;
+        font-weight: lighter;
+    }
+
+    #infoHeadline {
+        font-family: "TrajanPro-Regular";
+        font-size: 9vw;
+        color: rgb(255, 229, 136);
+        margin: 5vw;
+        margin-bottom: 10vw;
+    }
+
+    #spelInfoDiv p {
+        text-align: justify;
+        font-family: "Athelas-Regular";
+        color: rgb(253 243 205);
+        line-height: 1.8;
+        font-size: 5.5vw;
+    }
+
+    p#innanButton {
+        margin-bottom: 11vw;
+        color: rgb(255, 235, 162);
+    }
+
+
+
+
+    /*BUTTONS and INPUT for CHAPTERS*/
+
+    #inputContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #inputDivChap2 {
+        margin-top: 4vw;
+    }
+
+    #submitButton {
+        background-color: rgb(26 62 26);
+        width: 45vw;
+        height: 13vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        border-radius: 50px;
+        box-shadow: rgb(13, 31, 13) 4px 4px 5px;
+        position: relative;
+        top: 0.6vw;
+    }
+
+    #submitButton:focus {
+        background-color: rgb(12, 35, 12);
+        box-shadow: none;
+    }
+
+    #codeInput {
+        height: 8vw;
+        width: 70vw;
+        margin-bottom: 5vw;
+        border: none;
+        background-color: rgba(26, 62, 26, 0.406);
+        color: rgb(255, 210, 223);
+        padding: 2vw;
+    }
+
+    #inputDivChap2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0 5vw 0 5vw;
+    }
+
+    #inputDivChap2 img {
+        height: 25vw;
+        width: 25vw;
+        border-radius: 0;
+    }
+
+    #inputDivChap2 p {
+        color: rgb(145, 68, 91);
+    }
+
+    #submitButton h5 {
+        color: rgb(234 200 129);
+        font-family: "TrajanPro-Regular";
+        font-size: 5vw;
+        position: relative;
+        top: 0.7vw;
+    }
+
+
+
+    #muteButton {
+        height: 30vw;
+        width: 30vw;
+        margin-top: 5vw;
+    }
+
+
+
+
+
+}
+
+
+@media (max-height: 670px) {
+    #welcomeDiv {
+        height: auto;
+        min-height: 100dvh;
+        position: relative;
+        z-index: 1;
+    }
+
+    #welcomeDiv::before {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url('bilder/backgroundGreen.png');
+        background-size: cover;
+        background-position: center;
+        opacity: 0.25;
+        z-index: -1;
+        pointer-events: none;
+    }
+
+    #del1Div p {
+        bottom: 15vw;
+    }
+
+    #loggaWelcomeIMG {
+        top: 10vw;
+    }
+
+    #del3Div {
+        bottom: 10vw;
+    }
+
+    #del3Div p {
+        bottom: 5vw;
+    }
+
+    #welcomeStartButton {
+        width: 45vw;
+        height: 14vw;
+    }
+
+    #welcomeStartButton p {
+        font-size: 6.5vw;
+    }
+}

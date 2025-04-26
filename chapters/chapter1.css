@@ -1,0 +1,64 @@
+@media (max-width: 500px) {
+    #chapter1 {
+        padding: 5vw;
+    }
+
+    #wrapperChap1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(255, 240, 184, 0.867);
+        padding: 3vw;
+        padding-bottom: 10vw;
+        border-radius: 10vw;
+    }
+
+    #wrapperChap1 p {
+        text-align: justify;
+        line-height: 1.8;
+        font-size: 5.5vw;
+        font-family: "Athelas-Regular";
+    }
+
+    #lastP {
+        padding-bottom: 3vw;
+    }
+
+    #wrapperChap1 h4 {
+        font-size: 7vw;
+        font-family: "TrajanPro-Regular";
+
+    }
+
+    #del1P {
+        font-family: "TrajanPro-Regular";
+        font-size: 7vw;
+    }
+
+    #picOneChap1 {
+        margin-top: 6vw;
+    }
+
+    #dialogOraklet {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #dialogOraklet h5 {
+        font-size: 3.5vw;
+        font-family: "TrajanPro-Regular";
+        margin-top: 0;
+        margin-bottom: 10vw;
+        color: rgb(26 62 26);
+    }
+
+    img#refreshButton {
+        padding-top: 0;
+    }
+
+
+
+}

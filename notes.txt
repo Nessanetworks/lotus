@@ -1,0 +1,45 @@
+- Kolla på gula knappen, hur texten inuti kan bli bättre. 
+- Kolla på mellan texten på Spelinfo sida, då den är ful när den är fet. Kanske annat typsnitt? Kolla över hela sidan, den är ful.
+- Rita ljud på och ljud av knappen. 
+- Submit button ligger åt helvete, fixa det. (Inte i mitten)
+- Ta reda på hur man autospelar ljud på nya html filer.
+
+
+
+Reuse audio button I HTML:
+
+    <img src="../bilder/off.png" alt="sound" id="muteButton"
+                    style="cursor: pointer; height: 15vw; width: 15vw;" />
+    <img src="../bilder/replay.png" alt="Refresh" id="refreshButton"
+                    style="cursor: pointer; height: 12vw; width: 12vw; display: none;"/>
+
+SKAL VÄRE I JS FILENE, det kaller på funktionen.
+
+    let muteButton = document.getElementById("muteButton");
+    let refreshButton = document.getElementById("refreshButton");
+
+    //Gör en ny sån här när du vill ha ny audio, och call the function again.
+    let audio = new Audio("../ljud/SoundtrackOfficial.mp3");
+    audio.loop = true;
+    audio.volume = 0.5;
+
+    setupMuteButton(audio, muteButton, refreshButton);
+
+
+
+VIKTIGT, DU ER FERDIG MED:
+
+- Ferdig audio som du kan bruke, med eller uten refresh knapp!
+- Ferdig med standardside for OTROHET, VAL 2 INKLUSIVE INPUTFIELD til denne
+- Ferdig med standardside for chapter 1, 2, 3 före VALEN
+- Ferdig med förste siden!
+
+
+HAR IGEN: 
+
+- Alle siders innehåll, bilder och ljud
+- Komprimera alla bilder och ljudfiler
+- SLUTSIDA för båda versioner
+- Göra klart standardsida för TRAFFICKING, VAL 1 INKLUSIVE INPUTFIELD
+- !!FERDIG!! Fixa knapparna och Spelinfo sidan så att de ser mer fina ut !!FERDIG!!
+
