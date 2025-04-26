@@ -34,12 +34,13 @@ VIKTIGT, DU ER FERDIG MED:
 - Ferdig med standardside for chapter 1, 2, 3 före VALEN
 - Ferdig med förste siden!
 
+- !!FERDIG !! Göra klart standardsida för TRAFFICKING, VAL 1 INKLUSIVE INPUTFIELD !!FERDIG!!
+- !!FERDIG!! Fixa knapparna och Spelinfo sidan så att de ser mer fina ut !!FERDIG!!
+
 
 HAR IGEN: 
 
 - Alle siders innehåll, bilder och ljud
-- Komprimera alla bilder och ljudfiler
+- Komprimera och croppa alla bilder och ljudfiler
 - SLUTSIDA för båda versioner
-- Göra klart standardsida för TRAFFICKING, VAL 1 INKLUSIVE INPUTFIELD
-- !!FERDIG!! Fixa knapparna och Spelinfo sidan så att de ser mer fina ut !!FERDIG!!
 
