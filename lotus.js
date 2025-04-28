@@ -1,9 +1,6 @@
 let wrapper = document.getElementById("wrapper");
 console.log(wrapper);
 
-function clearWrapper() {
-    wrapper.innerHTML = "";
-}
 
 function renderAppWelcome() {
     clearWrapper();
@@ -15,7 +12,7 @@ function renderAppWelcome() {
     welcomeDiv.innerHTML = `
         <div id="del1Div">
             <img id="loggaWelcomeIMG" src="bilder/LoggaGUL.png" alt="Gul Logga">
-            <img id="poster" src="bilder/placeholder.jpg" alt="Intro bild">
+            <img id="poster" src="bilder/jonatan.webp" alt="Intro bild">
             <p id="welcomeHeadline">MALMÖ EDITION</p>
         </div>
 

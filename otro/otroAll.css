@@ -80,6 +80,7 @@
         background-color: rgba(26, 62, 26, 0.406);
         color: rgb(255, 210, 223);
         padding: 2vw;
+        font-size: 17px;
     }
 
     #inputDiv img {
@@ -137,6 +138,13 @@
         font-size: 5vw;
         position: relative;
         top: 0.7vw;
+    }
+
+    .message {
+        width: 90vw;
+        height: 56vw;
+        object-fit: fill;
+        border-radius: 0;
     }
 
 

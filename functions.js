@@ -66,3 +66,8 @@ function setupMuteButton(audio, muteButton, refreshButton) {
     };
 }
 
+function clearWrapper() {
+    wrapper.innerHTML = "";
+}
+
+

@@ -1,8 +1,4 @@
-- Kolla på gula knappen, hur texten inuti kan bli bättre. 
-- Kolla på mellan texten på Spelinfo sida, då den är ful när den är fet. Kanske annat typsnitt? Kolla över hela sidan, den är ful.
-- Rita ljud på och ljud av knappen. 
-- Submit button ligger åt helvete, fixa det. (Inte i mitten)
-- Ta reda på hur man autospelar ljud på nya html filer.
+
 
 
 
@@ -25,15 +21,30 @@ SKAL VÄRE I JS FILENE, det kaller på funktionen.
 
     setupMuteButton(audio, muteButton, refreshButton);
 
+28 APRIL, skal gjöres:
+- Lägg in all text.
+- Lägg in all ljud som finns för tillfället, komprimera ljud och korta ner.
+- Placeholder bilder i texten, (avvakta med alla bilder tills på onsdag)
+- Färdigställ slutsidorna för båda sluten. Logga, text, knappar. Otrohet låt ska vara: Theme song WL. Trafficking: 
+
+29 April:
+- Tryck ihop första sidan lite för Iphones. 
+- Fixa knapp på spelinfo för Iphones. 
+- Ljusa upp text p på trafficking sidor
+
+30 April:
+- Fixa med alla bilder.
+- Påbörja spelmekaniks instruktioner
 
 
-VIKTIGT, DU ER FERDIG MED:
+
+
+DU ER FERDIG MED:
 
 - Ferdig audio som du kan bruke, med eller uten refresh knapp!
 - Ferdig med standardside for OTROHET, VAL 2 INKLUSIVE INPUTFIELD til denne
 - Ferdig med standardside for chapter 1, 2, 3 före VALEN
 - Ferdig med förste siden!
-
 - !!FERDIG !! Göra klart standardsida för TRAFFICKING, VAL 1 INKLUSIVE INPUTFIELD !!FERDIG!!
 - !!FERDIG!! Fixa knapparna och Spelinfo sidan så att de ser mer fina ut !!FERDIG!!
 
@@ -41,6 +52,19 @@ VIKTIGT, DU ER FERDIG MED:
 HAR IGEN: 
 
 - Alle siders innehåll, bilder och ljud
-- Komprimera och croppa alla bilder och ljudfiler
+    - Del 1 
+    - Del 2
+    - Del 3
+
+    - Trafficking delar 4, 5, 6, 7, 8
+
+    - Otrohet delar, 4, 5, 6, 7, 8
+
+
+- Komprimera och croppa alla bilder
+- Komprimera, klippa och lägga in alla ljudfiler
 - SLUTSIDA för båda versioner
+- Göra val knapparna på Chapter 3
+
+
 

@@ -292,8 +292,9 @@
         margin-bottom: 5vw;
         border: none;
         background-color: rgba(26, 62, 26, 0.406);
-        color: rgb(255, 210, 223);
+        color: rgb(255, 228, 236);
         padding: 2vw;
+        font-size: 17px;
     }
 
     #inputDivChap2 {
