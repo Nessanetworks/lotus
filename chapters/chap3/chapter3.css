@@ -10,13 +10,13 @@
         justify-content: center;
         align-items: center;
         background-color: rgba(251, 237, 185, 0.867);
-        padding: 3vw;
+        padding: 4vw;
         padding-bottom: 10vw;
         border-radius: 10vw;
     }
 
     #wrapperChap3 p {
-        text-align: justify;
+        text-align: left;
         line-height: 1.8;
         font-size: 5.5vw;
         font-family: "Athelas-Regular";
@@ -132,5 +132,4 @@
         justify-content: center;
 
     }
-
 }

@@ -15,10 +15,11 @@
     }
 
     #wrapperChap1 p {
-        text-align: justify;
+        text-align: left;
         line-height: 1.8;
         font-size: 5.5vw;
         font-family: "Athelas-Regular";
+        width: 80vw;
     }
 
     #lastP {
@@ -38,6 +39,7 @@
 
     #picOneChap1 {
         margin-top: 6vw;
+        margin-bottom: 5vw;
     }
 
     #dialogOraklet {

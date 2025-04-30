@@ -39,13 +39,13 @@ function spelInfo() {
 
         <h6 id="infoHeadline">MALMÖ LIVE</h6>
 
-        <h5>VÄLKOMMEN</h5>
+        <h4>VÄLKOMMEN</h4>
 
         <p>Du ska nu checka in på The White Lotus: Malmö Live Edition, ett femstjärnigt paradis dolt bland kullerstensgator
         och havsbris. Här blandas skandinavisk elegans med varm och inbjudande känsla, och i varje hörn viskar
         hemligheter från svunna gäster.</p>
 
-        <h5>Luta dig tillbaka. <br><br>Släpp vardagen.</h5>
+        <h5>Luta dig tillbaka. Släpp vardagen.</h5>
 
         <p>Musiken sipprar in som mjuka vågor mot hotellkanten som en symfoni av exotiska toner och subtila rytmer som
         guidar dig genom upplevelsen. Höj volymen. Lyssna noggrant. I denna värld är inget en slump, varje ljud, varje

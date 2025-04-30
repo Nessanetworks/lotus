@@ -6,4 +6,13 @@ inputField(function () {
     } else {
         felKod();
     }
-}, "inputDiv"); 
+}, "inputDiv");
+
+
+let muteButton = document.getElementById("muteButton");
+
+let audioBaby = new Audio("../../ljud/SoundtrackOfficial.mp3");
+
+audioBaby.volume = 0.5;
+
+audioButton(audioBaby, muteButton);

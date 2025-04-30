@@ -120,8 +120,8 @@
         font-size: 5.5vw;
         line-height: 1.8;
         font-family: "Athelas-Regular";
-        text-align: justify;
-        color: rgb(255, 239, 179);
+        text-align: left;
+        color: rgb(255, 245, 209);
     }
 
     p#delpElementTraff {
@@ -130,7 +130,7 @@
     }
 
     #inputDivTraff p {
-        color: rgb(255, 163, 191);
+        color: rgb(255, 207, 221);
     }
 
     #submitButton h5 {
@@ -140,6 +140,42 @@
         position: relative;
         top: 0.7vw;
     }
+
+    /*PopUP Fel Kod*/
+
+    #felKodPopup {
+        position: fixed;
+        top: 20%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 85vw;
+        max-width: 500px;
+        padding: 6vw;
+        background-color: rgba(234, 100, 100, 0.95);
+        color: white;
+        font-family: "Athelas-Regular", serif;
+        font-size: 5vw;
+        text-align: center;
+        border-radius: 20px;
+        z-index: 9999;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        transition: opacity 0.3s ease;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    /*SLUT POPUP*/
+
+    .message {
+        width: 90vw;
+        height: 30vw;
+        object-fit: fill;
+        border-radius: 0;
+    }
+
+
 
 
 }

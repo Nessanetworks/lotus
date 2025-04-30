@@ -1,3 +1,5 @@
+
+//ORAKLETS DIALOG
 let muteButton = document.getElementById("muteButton");
 let refreshButton = document.getElementById("refreshButton");
 
@@ -9,34 +11,23 @@ audio.volume = 0.5;
 setupMuteButton(audio, muteButton, refreshButton);
 
 
+// SIREN FRÅN POLIS
+let muteButton3 = document.getElementById("muteButton3");
+
+let audioSirens = new Audio("../ljud/birdsPolice.mp3");
+
+audioSirens.volume = 0.5;
+
+audioButton3(audioSirens, muteButton3);
 
 
-/*function setupMuteButton(audio, muteButton, refreshButton) {
-    muteButton.onclick = function () {
-        if (audio.paused) {
-            audio.play();
-            muteButton.src = "../bilder/on.png";
-            refreshButton.style.display = "inline";
-        } else {
-            audio.pause();
-            muteButton.src = "../bilder/off.png";
-            refreshButton.style.display = "none";
-        }
-    };
+// HEARTBEAT
+let muteButton4 = document.getElementById("muteButton4");
 
-    refreshButton.onclick = function () {
-        audio.currentTime = 0;
-        audio.play();
-    };
-}
+let audioBeat = new Audio("../ljud/heartbeat.mp3");
 
-let muteButton = document.getElementById("muteButton");
-let refreshButton = document.getElementById("refreshButton");
+audioBeat.volume = 0.5;
 
-//Gör en ny sån här när du vill ha ny audio, och call the function again.
-let audio = new Audio("../ljud/SoundtrackOfficial.mp3");
-audio.loop = true;
-audio.volume = 0.5;
+audioButton3(audioBeat, muteButton4);
 
 
-setupMuteButton(audio, muteButton, refreshButton);*/

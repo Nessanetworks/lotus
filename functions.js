@@ -47,6 +47,7 @@ function inputField(submitHandler, appendToId) {
 }
 
 
+// FÖR STÄLLEN SOM BEHÖVER EN REPLAY KNAPP, DENNA PASSAR FRÅN DEL 1 TILL DEL 3
 function setupMuteButton(audio, muteButton, refreshButton) {
     muteButton.onclick = function () {
         if (audio.paused) {
@@ -65,6 +66,67 @@ function setupMuteButton(audio, muteButton, refreshButton) {
         audio.play();
     };
 }
+
+
+
+//FÖR SIDOR FRÅN DEL 2
+function audioButton(audio, muteButton) {
+    muteButton.onclick = function () {
+        if (audio.paused) {
+            audio.play();
+            muteButton.src = "../../bilder/on.png";
+        } else {
+            audio.pause();
+            muteButton.src = "../../bilder/off.png";
+        }
+    };
+}
+
+
+//FÖR SIDOR FRÅN DEL 2
+function audioButton2(audio, muteButton2) {
+    muteButton2.onclick = function () {
+        if (audio.paused) {
+            audio.play();
+            muteButton2.src = "../../bilder/on.png";
+        } else {
+            audio.pause();
+            muteButton2.src = "../../bilder/off.png";
+        }
+    };
+}
+
+
+
+
+
+
+//FÖR SIDAN DEL 1
+
+function audioButton3(audio, muteButton3) {
+    muteButton3.onclick = function () {
+        if (audio.paused) {
+            audio.play();
+            muteButton3.src = "../bilder/on.png";
+        } else {
+            audio.pause();
+            muteButton3.src = "../bilder/off.png";
+        }
+    };
+}
+
+function audioButton4(audio, muteButton4) {
+    muteButton4.onclick = function () {
+        if (audio.paused) {
+            audio.play();
+            muteButton4.src = "../bilder/on.png";
+        } else {
+            audio.pause();
+            muteButton4.src = "../bilder/off.png";
+        }
+    };
+}
+
 
 function clearWrapper() {
     wrapper.innerHTML = "";

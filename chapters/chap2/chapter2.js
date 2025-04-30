@@ -7,4 +7,14 @@ inputField(function () {
     } else {
         felKod();
     }
-}, "inputDivChap2"); 
+}, "inputDivChap2");
+
+
+// Sorl och mummel
+let muteButton3 = document.getElementById("muteButton");
+
+let audioBusy = new Audio("../../ljud/busyresturant.mp3");
+
+audioBusy.volume = 0.5;
+
+audioButton(audioBusy, muteButton);
