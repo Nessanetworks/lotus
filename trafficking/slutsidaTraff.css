@@ -16,7 +16,7 @@
 @media (max-width: 500px) {
 
     body {
-        background-color: rgb(234 200 129);
+        background-color: rgb(253 243 205);
         background-image: url('../bilder/yellow.webp');
         background-position: center;
         background-repeat: repeat;
@@ -36,9 +36,10 @@
     }
 
     #imgEnd {
-        height: 75vw;
-        width: 70vw;
+        height: 65vw;
+        width: 65vw;
         border-radius: 0;
+        object-fit: fill;
     }
 
     #wrapper {
@@ -47,6 +48,15 @@
         align-items: center;
         flex-direction: column;
         padding: 10vw;
+        padding-bottom: 17vw;
+        gap: 5vw;
+    }
+
+    #wrapper p {
+        font-family: 'Athelas-Regular';
+        font-size: 5.5vw;
+        line-height: 1.5;
+
     }
 
     /*BUTTON FOR YELLOW AND GREEN*/
@@ -77,9 +87,14 @@
         box-shadow: none;
     }
 
+    h2 {
+        font-family: 'Athelas-Regular';
+        color: rgb(26 62 26);
+    }
+
     .buttonGreen {
         background-color: rgb(26 62 26);
-        width: 45vw;
+        width: 50vw;
         height: 13vw;
         display: flex;
         justify-content: center;
@@ -100,6 +115,10 @@
     .buttonGreen:focus {
         background-color: rgb(12, 35, 12);
         box-shadow: none;
+    }
+
+    #lastP {
+        margin-bottom: 10vw;
     }
 
 

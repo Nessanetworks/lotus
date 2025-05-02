@@ -25,9 +25,9 @@
 
     /* DEFAULT IMG och SQUARE IMG class. */
     img {
-        padding-top: 5vw;
-        padding-bottom: 5vw;
-        height: 75vw;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+        height: 80vw;
         width: 48vw;
         border-radius: 50vw;
         object-fit: cover;
@@ -38,8 +38,8 @@
         width: 80vw;
         border-radius: 15vw;
         object-fit: cover;
-        padding-top: 3vw;
-        padding-bottom: 3vw;
+        margin-top: 6vw;
+        margin-bottom: 6vw;
     }
 
 
@@ -77,7 +77,7 @@
 
     #codeInput {
         height: 8vw;
-        width: 70vw;
+        width: 76vw;
         margin-bottom: 5vw;
         border: none;
         background-color: rgba(255, 239, 179, 0.702);
@@ -87,8 +87,8 @@
     }
 
     #inputDivTraff img {
-        height: 25vw;
-        width: 25vw;
+        height: 30vw;
+        width: 30vw;
         border-radius: 0;
     }
 
@@ -97,7 +97,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 0 5vw 0 5vw;
+        padding: 0 5vw 5vw 5vw;
     }
 
 
@@ -122,15 +122,17 @@
         font-family: "Athelas-Regular";
         text-align: left;
         color: rgb(255, 245, 209);
+        width: 80vw;
     }
 
     p#delpElementTraff {
         font-family: "TrajanPro-Regular";
         font-size: 7vw;
+        text-align: center;
     }
 
     #inputDivTraff p {
-        color: rgb(255, 207, 221);
+        color: rgb(255, 170, 194);
     }
 
     #submitButton h5 {
@@ -145,16 +147,16 @@
 
     #felKodPopup {
         position: fixed;
-        top: 20%;
+        top: 40%;
         left: 50%;
         transform: translateX(-50%);
-        width: 85vw;
+        width: 78vw;
         max-width: 500px;
         padding: 6vw;
-        background-color: rgba(234, 100, 100, 0.95);
-        color: white;
+        background-color: rgba(255, 170, 194, 0.866);
+        color: rgb(0, 0, 0);
         font-family: "Athelas-Regular", serif;
-        font-size: 5vw;
+        font-size: 6vw;
         text-align: center;
         border-radius: 20px;
         z-index: 9999;
@@ -169,10 +171,32 @@
     /*SLUT POPUP*/
 
     .message {
-        width: 90vw;
+        width: 85vw;
         height: 30vw;
         object-fit: fill;
         border-radius: 0;
+    }
+
+    #instruktion {
+        text-align: center;
+        color: rgb(255, 170, 194);
+        font-size: 4.5vw;
+        line-height: 1.5;
+        font-family: "Athelas-Regular";
+        font-weight: lighter;
+        background-color: rgba(23, 58, 23, 0.67);
+        border-radius: 15vw;
+        padding: 2vw;
+        width: 78vw;
+        margin-top: 8vw;
+        margin-bottom: 8vw;
+    }
+
+    #instruktion img {
+        height: 30vw;
+        width: 30vw;
+        border-radius: 0;
+
     }
 
 

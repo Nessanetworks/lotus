@@ -68,15 +68,15 @@
     }
 
     .buttonYelloww {
-        background-color: rgb(234 200 129);
-        width: 35vw;
+        background-color: rgb(255, 212, 118);
+        width: 38vw;
         height: 12vw;
         display: flex;
         justify-content: center;
         align-items: center;
         border: none;
         border-radius: 50px;
-        box-shadow: rgb(13, 31, 13) 5px 5px 6px;
+        box-shadow: rgba(13, 31, 13, 0.768) 5px 5px 6px;
     }
 
     .buttonYelloww h6 {
@@ -95,7 +95,7 @@
 
     .buttonGreenn {
         background-color: rgb(26 62 26);
-        width: 35vw;
+        width: 38vw;
         height: 12vw;
         display: flex;
         justify-content: center;
@@ -131,5 +131,12 @@
         align-items: center;
         justify-content: center;
 
+    }
+
+    .message {
+        width: 83.5vw;
+        height: 28vw;
+        object-fit: fill;
+        border-radius: 0;
     }
 }

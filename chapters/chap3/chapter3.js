@@ -1,15 +1,15 @@
 //Notisljud
-let muteButton = document.getElementById("muteButton");
+let muteButton = document.getElementById("muteButtonY");
 
 let audioNoti = new Audio("../../ljud/noti1.mp3");
 
 audioNoti.volume = 0.5;
 
-audioButton(audioNoti, muteButton);
+audioButtonY(audioNoti, muteButton);
 
 
 //lounge
-let muteButton2 = document.getElementById("muteButton2");
+let muteButton2 = document.getElementById("muteButton2Y");
 
 let audioLounge = new Audio("../../ljud/themeSong.mp3");
 
@@ -28,5 +28,5 @@ audioLounge.addEventListener('ended', function () {
 
 audioLounge.volume = 0.2;
 
-audioButton2(audioLounge, muteButton2);
+audioButton2Y(audioLounge, muteButton2);
 

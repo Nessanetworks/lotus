@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'Athelas-Regular';
+    src: url('../fonts/Athelas-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TrajanPro-Regular';
+    src: url('../fonts/TrajanPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@media (max-width: 500px) {
+
+    body {
+        background-color: rgb(26 62 26);
+        ;
+        background-image: url('../bilder/backgroundGreen25.png');
+        background-position: center;
+        background-repeat: repeat;
+        margin: 0;
+        padding: 0;
+    }
+
+    /*default img shape and size*/
+
+    img {
+        padding-top: 5vw;
+        padding-bottom: 5vw;
+        height: 75vw;
+        width: 48vw;
+        border-radius: 50vw;
+        object-fit: cover;
+    }
+
+    #imgEnd {
+        height: 65vw;
+        width: 65vw;
+        border-radius: 0;
+        object-fit: fill;
+    }
+
+    #wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 10vw;
+        padding-bottom: 17vw;
+        gap: 5vw;
+    }
+
+    #wrapper p {
+        font-family: 'Athelas-Regular';
+        font-size: 5.5vw;
+        line-height: 1.5;
+        color: rgb(253 243 205);
+    }
+
+    /*BUTTON FOR YELLOW AND GREEN*/
+
+    .buttonYellow {
+        background-color: rgb(234 200 129);
+        width: 45vw;
+        height: 13vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        border-radius: 50px;
+        box-shadow: rgb(13, 31, 13) 5px 5px 6px;
+    }
+
+    .buttonYellow h6 {
+        position: relative;
+        top: 0.6vw;
+        color: black;
+        font-family: "TrajanPro-Regular";
+        font-size: 5vw;
+        margin: 3vw;
+    }
+
+    .buttonYellow:focus {
+        background-color: rgb(230, 186, 90);
+        box-shadow: none;
+    }
+
+    h2 {
+        font-family: 'Athelas-Regular';
+        color: rgb(253 243 205);
+    }
+
+    .buttonGreen {
+        background-color: rgb(26 62 26);
+        width: 50vw;
+        height: 13vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        border-radius: 50px;
+        box-shadow: rgb(13, 31, 13) 5px 5px 6px;
+    }
+
+    .buttonGreen h6 {
+        position: relative;
+        top: 0.6vw;
+        color: rgb(234 200 129);
+        font-family: "TrajanPro-Regular";
+        font-size: 5vw;
+    }
+
+    .buttonGreen:focus {
+        background-color: rgb(12, 35, 12);
+        box-shadow: none;
+    }
+
+    #lastP {
+        margin-bottom: 10vw;
+    }
+
+
+}

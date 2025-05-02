@@ -4,9 +4,10 @@
 
 Reuse audio button I HTML:
 
-    <img src="../bilder/off.png" alt="sound" id="muteButton"
-                    style="cursor: pointer; height: 15vw; width: 15vw;"/>
-    <img src="../bilder/replay.png" alt="Refresh" id="refreshButton"
+    <img src="../bilder/PlayY.svg" alt="sound" id="muteButton"
+                    style="cursor: pointer; height: 17vw; width: 17vw;"/>
+
+    <img src="../bilder/ReplayG.png" alt="Refresh" id="refreshButton"
                     style="cursor: pointer; height: 12vw; width: 12vw; display: none;"/>
 
 SKAL VÄRE I JS FILENE, det kaller på funktionen.
@@ -21,20 +22,34 @@ SKAL VÄRE I JS FILENE, det kaller på funktionen.
 
     setupMuteButton(audio, muteButton, refreshButton);
 
-28 APRIL, skal gjöres:
-- Lägg in all text. KLAR
-- Placeholder bilder i texten, (avvakta med alla bilder tills på onsdag) KLAR
 
 
-29 April:
-- Tryck ihop första sidan lite för Iphones. 
-- Fixa knapp på spelinfo för Iphones. 
-- Ljusa upp text p på trafficking sidor
-- Lägg in all ljud som finns för tillfället, komprimera ljud och korta ner. INTE KLAR, behöver prioritera del 1, del 2, del 3 - musik och ljuden.
-- Färdigställ slutsidorna för båda sluten. Logga, text, knappar. !!Blev inte klar!!
 
-30 April:
-- Fixa med alla bilder.
+
+
+
+
+
+Denna helgen:
+
+
+Därefter: Fadea ut ljudfiler som låter abrupta. 
+Sen: kolla om man kan ta tillbaka play knappen när audion har slutat helt. 
+Sist: Rätta knapper på del 1 oraklet. 
+
+        - Dinner behöver inte fadeas.
+        - WTF behöver inte fadeas.
+        - SoundtrackOfficial bra. 
+
+        - seaTurtle längre och fadeas.
+        - Themesong måste fixas, längre och fadeas.
+        - Polisjudet fadeas.
+
+
+- Lägg in all ljud, fixa loops, och se över play/pause buttons funktioner. GJORT.
+    - Bara den oraklets dialog funktion som måste fixas!
+- Fadea ut ljudfiler.
+
 
 
 
@@ -48,25 +63,12 @@ DU ER FERDIG MED:
 - Ferdig med förste siden!
 - !!FERDIG !! Göra klart standardsida för TRAFFICKING, VAL 1 INKLUSIVE INPUTFIELD !!FERDIG!!
 - !!FERDIG!! Fixa knapparna och Spelinfo sidan så att de ser mer fina ut !!FERDIG!!
+- Fixa med alla bilder, för alla sidor. Alltså lägg in rätt bild och rätt storlek på bild.
+- Play och Pause måste läggas in på ny i ALLA ljud, förutom: Trafficking delarna 5, 6, 7.
+- Färdigställ slutsidorna för båda sluten. Logga, text, knappar. 
+- Nästa steg: Fixa alla bilder som ska vara i del 4 till del 8 i Otrohet. !!I DID IT!!
 
 
-HAR IGEN: 
-
-- Alle siders innehåll, bilder och ljud
-    - Del 1 - musik
-    - Del 2 - musik
-    - Del 3 - musik
-
-    - Trafficking delar 4, 5, 6, 7, 8
-
-    - Otrohet delar, 4, 5, 6, 7, 8 - På god väg här
-
-
-- Komprimera och croppa alla bilder
-- Komprimera, klippa och lägga in alla ljudfiler
-- SLUTSIDA för båda versioner
-- Göra val knapparna på Chapter 3
-- Fixa så att themeSong på del 3 fader ut. Låter fult just nu.
 
 
 

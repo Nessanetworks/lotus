@@ -10,7 +10,7 @@ inputField(function () {
 
 // FÖR MUSIK
 
-let muteButton = document.getElementById("muteButton");
+let muteButton = document.getElementById("muteButtonY");
 
 let audioWTF = new Audio("../../ljud/lotussWTF.mp3");
 
@@ -29,18 +29,18 @@ audioWTF.addEventListener('ended', function () {
 
 audioWTF.volume = 0.5;
 
-audioButton(audioWTF, muteButton);
+audioButtonY(audioWTF, muteButton);
 
 
 
 // FÖR MOBILSIGNAL
 
-let muteButton2 = document.getElementById("muteButton2");
+let muteButton2 = document.getElementById("muteButton2Y");
 
 let audioSignal = new Audio("../../ljud/noti1.mp3");
 
 audioSignal.volume = 0.5;
 
-audioButton2(audioSignal, muteButton2);
+audioButton2Y(audioSignal, muteButton2);
 
 

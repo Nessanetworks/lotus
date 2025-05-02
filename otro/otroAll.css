@@ -35,8 +35,8 @@
         width: 80vw;
         border-radius: 15vw;
         object-fit: cover;
-        padding-top: 3vw;
-        padding-bottom: 3vw;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
     }
 
 
@@ -125,11 +125,13 @@
         line-height: 1.8;
         font-family: "Athelas-Regular";
         text-align: left;
+        width: 80vw;
     }
 
     p#delpElement {
         font-family: "TrajanPro-Regular";
         font-size: 7vw;
+        text-align: center;
     }
 
     #submitButton h5 {

@@ -47,16 +47,16 @@ function inputField(submitHandler, appendToId) {
 }
 
 
-// FÖR STÄLLEN SOM BEHÖVER EN REPLAY KNAPP, DENNA PASSAR FRÅN DEL 1 TILL DEL 3
+// FÖR STÄLLEN SOM BEHÖVER EN REPLAY KNAPP
 function setupMuteButton(audio, muteButton, refreshButton) {
     muteButton.onclick = function () {
         if (audio.paused) {
             audio.play();
-            muteButton.src = "../bilder/on.png";
-            refreshButton.style.display = "inline";
+            muteButton.src = "../bilder/PlayG.svg";
+            refreshButton.style.display = "block";
         } else {
             audio.pause();
-            muteButton.src = "../bilder/off.png";
+            muteButton.src = "../bilder/PauseG.svg";
             refreshButton.style.display = "none";
         }
     };
@@ -69,21 +69,21 @@ function setupMuteButton(audio, muteButton, refreshButton) {
 
 
 
-//FÖR SIDOR FRÅN DEL 2
+//FÖR SIDOR FRÅN DEL 2 TRAFFICKING/GRÖNA SIDOR
 function audioButton(audio, muteButton) {
     muteButton.onclick = function () {
         if (audio.paused) {
             audio.play();
-            muteButton.src = "../../bilder/on.png";
+            muteButton.src = "../../bilder/PauseY.svg";
         } else {
             audio.pause();
-            muteButton.src = "../../bilder/off.png";
+            muteButton.src = "../../bilder/PlayY.svg";
         }
     };
 }
 
 
-//FÖR SIDOR FRÅN DEL 2
+//FÖR SIDOR FRÅN DEL 2 TRAFFICKING/GRÖNA SIDOR
 function audioButton2(audio, muteButton2) {
     muteButton2.onclick = function () {
         if (audio.paused) {
@@ -96,6 +96,35 @@ function audioButton2(audio, muteButton2) {
     };
 }
 
+//FÖR SIDOR FRÅN DEL 2 OTROHET/GULA SIDOR
+function audioButtonY(audio, muteButtonY) {
+    muteButtonY.onclick = function () {
+        if (audio.paused) {
+            audio.play();
+            muteButtonY.src = "../../bilder/PauseG.svg";
+        } else {
+            audio.pause();
+            muteButtonY.src = "../../bilder/PlayG.svg";
+        }
+    };
+}
+
+
+//FÖR SIDOR FRÅN DEL 2 OTROHET/GULA SIDOR
+function audioButton2Y(audio, muteButton2Y) {
+    muteButton2Y.onclick = function () {
+        if (audio.paused) {
+            audio.play();
+            muteButton2Y.src = "../../bilder/PauseG.svg";
+        } else {
+            audio.pause();
+            muteButton2Y.src = "../../bilder/PlayG.svg";
+        }
+    };
+}
+
+
+
 
 
 
@@ -107,10 +136,10 @@ function audioButton3(audio, muteButton3) {
     muteButton3.onclick = function () {
         if (audio.paused) {
             audio.play();
-            muteButton3.src = "../bilder/on.png";
+            muteButton3.src = "../bilder/PauseG.svg";
         } else {
             audio.pause();
-            muteButton3.src = "../bilder/off.png";
+            muteButton3.src = "../bilder/PlayG.svg";
         }
     };
 }
@@ -119,10 +148,10 @@ function audioButton4(audio, muteButton4) {
     muteButton4.onclick = function () {
         if (audio.paused) {
             audio.play();
-            muteButton4.src = "../bilder/on.png";
+            muteButton4.src = "../bilder/PauseG.svg";
         } else {
             audio.pause();
-            muteButton4.src = "../bilder/off.png";
+            muteButton4.src = "../bilder/PlayG.svg";
         }
     };
 }

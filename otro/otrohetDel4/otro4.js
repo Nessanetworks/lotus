@@ -8,7 +8,7 @@ inputField(function () {
     }
 }, "inputDiv");
 
-let muteButton = document.getElementById("muteButton");
+let muteButton = document.getElementById("muteButtonY");
 
 let audioDinner = new Audio("../../ljud/dinnerLotus.mp3");
 
@@ -27,4 +27,4 @@ audioDinner.addEventListener('ended', function () {
 
 audioDinner.volume = 0.5;
 
-audioButton(audioDinner, muteButton);
+audioButtonY(audioDinner, muteButton);

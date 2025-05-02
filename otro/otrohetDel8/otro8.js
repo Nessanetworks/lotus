@@ -9,10 +9,10 @@ inputField(function () {
 }, "inputDiv");
 
 
-let muteButton = document.getElementById("muteButton");
+let muteButton = document.getElementById("muteButtonY");
 
 let audioBaby = new Audio("../../ljud/SoundtrackOfficial.mp3");
 
 audioBaby.volume = 0.5;
 
-audioButton(audioBaby, muteButton);
+audioButtonY(audioBaby, muteButton);

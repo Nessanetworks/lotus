@@ -42,4 +42,15 @@
         margin-top: 6vw;
     }
 
+    #CamJon {
+        display: flex;
+        gap: 2vw;
+    }
+
+    #CamJon img {
+        height: 60vw;
+        width: 40vw;
+        border-radius: 10vw;
+    }
+
 }

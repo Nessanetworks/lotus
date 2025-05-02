@@ -9,10 +9,10 @@ inputField(function () {
 }, "inputDiv");
 
 
-let muteButton = document.getElementById("muteButton");
+let muteButton = document.getElementById("muteButtonY");
 
 let audioBusy = new Audio("../../ljud/busyresturant.mp3");
 
 audioBusy.volume = 0.5;
 
-audioButton(audioBusy, muteButton);
+audioButtonY(audioBusy, muteButton);
