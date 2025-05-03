@@ -12,24 +12,9 @@ inputField(function () {
 
 let muteButton = document.getElementById("muteButtonY");
 
-let audioWTF = new Audio("../../ljud/lotussWTF.mp3");
-
-let loopCount = 0;
-const maxLoops = 2;
-
-audioWTF.addEventListener('ended', function () {
-    loopCount++;
-    if (loopCount < maxLoops) {
-        audioWTF.currentTime = 0;
-        audioWTF.play();
-    } else {
-        console.log("Loopat klart");
-    }
-});
-
-audioWTF.volume = 0.5;
-
-audioButtonY(audioWTF, muteButton);
+let audio = new Audio("../../ljud/lotussWTF.mp3");
+audio.volume = 0.5;
+audioButtonY(audio, muteButton, 1);
 
 
 
@@ -41,6 +26,6 @@ let audioSignal = new Audio("../../ljud/noti1.mp3");
 
 audioSignal.volume = 0.5;
 
-audioButton2Y(audioSignal, muteButton2);
+audioButtonY2(audioSignal, muteButton2);
 
 

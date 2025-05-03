@@ -11,10 +11,10 @@ inputField(function () {
 
 
 // Sorl och mummel
-let muteButton3 = document.getElementById("muteButtonY");
+let muteButton = document.getElementById("muteButtonY");
 
 let audioBusy = new Audio("../../ljud/busyresturant.mp3");
 
 audioBusy.volume = 0.5;
 
-audioButtonY(audioBusy, muteButton3);
+audioButtonY(audioBusy, muteButton);

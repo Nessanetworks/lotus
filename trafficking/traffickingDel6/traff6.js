@@ -9,7 +9,5 @@ inputField(function () {
 }, "inputDivTraff");
 
 let audio = new Audio("../../ljud/busyresturant.mp3");
-
 audio.volume = 0.5;
-
 audioButton(audio, muteButton);

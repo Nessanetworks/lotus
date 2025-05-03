@@ -11,6 +11,9 @@ audio.volume = 0.5;
 setupMuteButton(audio, muteButton, refreshButton);
 
 
+
+
+
 // SIREN FRÅN POLIS
 let muteButton3 = document.getElementById("muteButton3");
 
@@ -28,6 +31,6 @@ let audioBeat = new Audio("../ljud/heartbeat.mp3");
 
 audioBeat.volume = 0.5;
 
-audioButton3(audioBeat, muteButton4);
+audioButton4(audioBeat, muteButton4);
 
 

@@ -1,6 +1,10 @@
 function slutsidaOtro() {
     clearWrapper();
 
+    let audio = new Audio("../ljud/themeSong.mp3");
+    audio.play();
+    audio.volume = 0.5;
+
     const wrapper = document.getElementById('wrapper');
 
     const imgEnd = document.createElement('img');

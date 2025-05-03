@@ -24,7 +24,12 @@ SKAL VÄRE I JS FILENE, det kaller på funktionen.
 
 
 
+MÅSTE FIXAS, detaljer:
 
+- Bilder på karaktärarna, vilka gäller? Måste croppas och läggas till namn.
+- Bild på del 8, otrohet, första bild - ser dålig ut.
+- Måste lägga in dialog för oraklet.
+- 
 
 
 
@@ -32,23 +37,9 @@ SKAL VÄRE I JS FILENE, det kaller på funktionen.
 
 Denna helgen:
 
-
-Därefter: Fadea ut ljudfiler som låter abrupta. 
-Sen: kolla om man kan ta tillbaka play knappen när audion har slutat helt. 
-Sist: Rätta knapper på del 1 oraklet. 
-
-        - Dinner behöver inte fadeas.
-        - WTF behöver inte fadeas.
-        - SoundtrackOfficial bra. 
-
-        - seaTurtle längre och fadeas.
-        - Themesong måste fixas, längre och fadeas.
-        - Polisjudet fadeas.
+Sist: Rätta knapper på del 1 oraklet. AVVAKTAR
 
 
-- Lägg in all ljud, fixa loops, och se över play/pause buttons funktioner. GJORT.
-    - Bara den oraklets dialog funktion som måste fixas!
-- Fadea ut ljudfiler.
 
 
 
@@ -67,6 +58,15 @@ DU ER FERDIG MED:
 - Play och Pause måste läggas in på ny i ALLA ljud, förutom: Trafficking delarna 5, 6, 7.
 - Färdigställ slutsidorna för båda sluten. Logga, text, knappar. 
 - Nästa steg: Fixa alla bilder som ska vara i del 4 till del 8 i Otrohet. !!I DID IT!!
+- Sen: kolla om man kan ta tillbaka play knappen när audion har slutat helt. FIXAT!
+- Helt sist: lägg på server och kolla läget Iphone/android. KLART
+- Därefter: Fadea ut ljudfiler som låter abrupta. 
+
+DESSA BEHÖVER FADEAS:
+        - seaTurtle längre och fadeas. KLAR!!
+        - Themesong måste fixas, längre och fadeas. KLAR!!
+        - Polisjudet fadeas. KLAR!!
+
 
 
 

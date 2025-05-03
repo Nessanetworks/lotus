@@ -10,21 +10,8 @@ inputField(function () {
 
 let muteButton = document.getElementById("muteButtonY");
 
-let audioDinner = new Audio("../../ljud/dinnerLotus.mp3");
+let audio = new Audio("../../ljud/dinnerLotus.mp3");
 
-let loopCount = 0;
-const maxLoops = 3;
+audio.volume = 0.5;
+audioButtonY(audio, muteButton, 2);
 
-audioDinner.addEventListener('ended', function () {
-    loopCount++;
-    if (loopCount < maxLoops) {
-        audioDinner.currentTime = 0;
-        audioDinner.play();
-    } else {
-        console.log("Loopat klart");
-    }
-});
-
-audioDinner.volume = 0.5;
-
-audioButtonY(audioDinner, muteButton);

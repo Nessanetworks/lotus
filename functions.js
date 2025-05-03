@@ -16,6 +16,8 @@ function felKod() {
 }
 
 
+
+//INPUTFIELD
 function inputField(submitHandler, appendToId) {
     const appendTo = document.getElementById(appendToId);
     if (!appendTo) {
@@ -47,7 +49,7 @@ function inputField(submitHandler, appendToId) {
 }
 
 
-// FÖR STÄLLEN SOM BEHÖVER EN REPLAY KNAPP
+// FÖR STÄLLEN SOM BEHÖVER EN REPLAY KNAPP - INTE KLAR!!
 function setupMuteButton(audio, muteButton, refreshButton) {
     muteButton.onclick = function () {
         if (audio.paused) {
@@ -69,8 +71,14 @@ function setupMuteButton(audio, muteButton, refreshButton) {
 
 
 
-//FÖR SIDOR FRÅN DEL 2 TRAFFICKING/GRÖNA SIDOR
-function audioButton(audio, muteButton) {
+
+
+
+
+//FÖR SIDOR FRÅN DEL 2 TRAFFICKING/GRÖNA SIDOR - GULA KNAPPAR
+function audioButton(audio, muteButton, maxLoops = 0) {
+    let loopCount = 0;
+
     muteButton.onclick = function () {
         if (audio.paused) {
             audio.play();
@@ -80,47 +88,105 @@ function audioButton(audio, muteButton) {
             muteButton.src = "../../bilder/PlayY.svg";
         }
     };
+
+    audio.addEventListener("ended", function () {
+        if (loopCount < maxLoops) {
+            loopCount++;
+            audio.currentTime = 0;
+            audio.play();
+        } else {
+            muteButton.src = "../../bilder/PlayY.svg";
+            loopCount = 0;
+        }
+    });
 }
 
 
-//FÖR SIDOR FRÅN DEL 2 TRAFFICKING/GRÖNA SIDOR
-function audioButton2(audio, muteButton2) {
-    muteButton2.onclick = function () {
+
+
+
+//FÖR GULA SIDOR (OTROHET) - GRÖN knapp.
+function audioButtonY(audio, muteButton, maxLoops = 0) {
+    let loopCount = 0;
+
+    muteButton.onclick = function () {
         if (audio.paused) {
             audio.play();
-            muteButton2.src = "../../bilder/on.png";
+            muteButton.src = "../../bilder/PauseG.svg";
         } else {
             audio.pause();
-            muteButton2.src = "../../bilder/off.png";
+            muteButton.src = "../../bilder/PlayG.svg";
         }
     };
+
+    audio.addEventListener("ended", function () {
+        if (loopCount < maxLoops) {
+            loopCount++;
+            audio.currentTime = 0;
+            audio.play();
+        } else {
+            muteButton.src = "../../bilder/PlayG.svg";
+            loopCount = 0;
+        }
+    });
 }
 
-//FÖR SIDOR FRÅN DEL 2 OTROHET/GULA SIDOR
-function audioButtonY(audio, muteButtonY) {
-    muteButtonY.onclick = function () {
+
+
+
+//AudioButton 2 för GULA SIDOR.
+function audioButtonY2(audio, muteButton, maxLoops = 0) {
+    let loopCount = 0;
+
+    muteButton.onclick = function () {
         if (audio.paused) {
             audio.play();
-            muteButtonY.src = "../../bilder/PauseG.svg";
+            muteButton.src = "../../bilder/PauseG.svg";
         } else {
             audio.pause();
-            muteButtonY.src = "../../bilder/PlayG.svg";
+            muteButton.src = "../../bilder/PlayG.svg";
         }
     };
+
+    audio.addEventListener("ended", function () {
+        if (loopCount < maxLoops) {
+            loopCount++;
+            audio.currentTime = 0;
+            audio.play();
+        } else {
+            muteButton.src = "../../bilder/PlayG.svg";
+            loopCount = 0;
+        }
+    });
 }
 
 
-//FÖR SIDOR FRÅN DEL 2 OTROHET/GULA SIDOR
-function audioButton2Y(audio, muteButton2Y) {
-    muteButton2Y.onclick = function () {
+
+
+
+function audioButton3(audio, muteButton, maxLoops = 0) {
+    let loopCount = 0;
+
+    muteButton.onclick = function () {
         if (audio.paused) {
             audio.play();
-            muteButton2Y.src = "../../bilder/PauseG.svg";
+            muteButton.src = "../bilder/PauseG.svg";
         } else {
             audio.pause();
-            muteButton2Y.src = "../../bilder/PlayG.svg";
+            muteButton.src = "../bilder/PlayG.svg";
         }
     };
+
+    audio.addEventListener("ended", function () {
+        if (loopCount < maxLoops) {
+            loopCount++;
+            audio.currentTime = 0;
+            audio.play();
+        } else {
+            muteButton.src = "../bilder/PlayG.svg";
+            loopCount = 0;
+        }
+    });
 }
 
 
@@ -128,33 +194,32 @@ function audioButton2Y(audio, muteButton2Y) {
 
 
 
+function audioButton4(audio, muteButton, maxLoops = 0) {
+    let loopCount = 0;
 
-
-//FÖR SIDAN DEL 1
-
-function audioButton3(audio, muteButton3) {
-    muteButton3.onclick = function () {
+    muteButton.onclick = function () {
         if (audio.paused) {
             audio.play();
-            muteButton3.src = "../bilder/PauseG.svg";
+            muteButton.src = "../bilder/PauseG.svg";
         } else {
             audio.pause();
-            muteButton3.src = "../bilder/PlayG.svg";
+            muteButton.src = "../bilder/PlayG.svg";
         }
     };
+
+    audio.addEventListener("ended", function () {
+        if (loopCount < maxLoops) {
+            loopCount++;
+            audio.currentTime = 0;
+            audio.play();
+        } else {
+            muteButton.src = "../bilder/PlayG.svg";
+            loopCount = 0;
+        }
+    });
 }
 
-function audioButton4(audio, muteButton4) {
-    muteButton4.onclick = function () {
-        if (audio.paused) {
-            audio.play();
-            muteButton4.src = "../bilder/PauseG.svg";
-        } else {
-            audio.pause();
-            muteButton4.src = "../bilder/PlayG.svg";
-        }
-    };
-}
+
 
 
 function clearWrapper() {
