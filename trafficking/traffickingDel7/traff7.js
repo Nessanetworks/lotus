@@ -2,7 +2,7 @@ inputField(function () {
     const userCode = document.getElementById("codeInput").value.trim().toLowerCase();
 
     if (userCode === "skynda dig genom varvsparken") {
-        window.location.href = "../slutsidaTraff.html";
+        window.location.href = "../traffickingDel8/traff8.html";
     } else {
         felKod();
     }

@@ -18,7 +18,8 @@ MÅSTE FIXAS:
 
 
 Mindre viktigt:
-- Bilder på karaktärarna, vilka gäller? Måste croppas och läggas till namn.
+- Bilder på karaktärarna, vilka gäller? Måste croppas och läggas till namn. KLAR
+
 - Måste lägga in dialog för oraklet.
 - Kan vara värt att markera dialog ännu mer, så att det sticker ut när man läser.
 - Lägg in ljud för otro del 9, traff del 8 och 9.
@@ -26,6 +27,8 @@ Mindre viktigt:
 
 
 Mycket viktigt inför Onsdag:
+
+
 
 
 
@@ -42,14 +45,14 @@ När något är checkat, så betyder det att ALLT är klart inför användertest
     DEL 6 OTRO KLAR
     DEL 7 OTRO KLAR 
     DEL 8 OTRO KLAR - saknar dock spelmekanik, men kod och förklaring är på plats.
-    DEL 9 OTRO KLAR FÅ IN BILDER PÅ TITANIC
+    DEL 9 OTRO KLAR 
 
     DEL 4 TRAFF KLAR 
     DEL 5 TRAFF KLAR
     DEL 6 TRAFF KLAR
     DEL 7 TRAFF KLAR
     DEL 8 TRAFF KLAR
-    DEL 9 TRAFF KLAR FÅ IN BILDER PÅ TITANIC
+    DEL 9 TRAFF KLAR
         - DEL 9 VAL: GÅ EMELLAN KLAR
         - DEL 9 VAL: STÅ KVAR KLAR 
 
@@ -66,6 +69,9 @@ KLAR
 - Lägg in bilder där det behövs, på sista sidorna. 
 - Byt ut bilderna på karaktärarna, nästan klar, måste byta ut alla Jonathan och Kim bilder.
 - Bild på del 8, otrohet, första bild - ser dålig ut.
+
+- Lägg in fler bilder på Mia genom berättelserna. 
+- Se över ALLA sidor och spelmekaniken. 
 
 
 

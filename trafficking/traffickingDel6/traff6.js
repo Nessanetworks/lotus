@@ -11,10 +11,10 @@
 inputField(function () {
     const userCode = document.getElementById("codeInput").value.trim().toLowerCase();
 
-    const korrektaSvar = ["kanelbulle", "kanel bulle", "kanelbullar", "kanel bullar", "kanel bullarna", "kanelbullarna", "en kanelbulle"];
+    const korrektaSvar = ["vera"];
 
     if (korrektaSvar.includes(userCode)) {
-        window.location.href = "../traffickingDel6/traff6.html";
+        window.location.href = "../traffickingDel7/traff7.html";
     } else {
         felKod();
     }

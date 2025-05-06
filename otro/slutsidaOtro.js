@@ -1,5 +1,6 @@
 function slutsidaOtro() {
     clearWrapper();
+    window.scrollTo(0, 0);
 
     let audio = new Audio("../ljud/themeSong.mp3");
     audio.play();
