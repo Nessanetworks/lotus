@@ -4,6 +4,7 @@ console.log(wrapper);
 
 function renderAppWelcome() {
     clearWrapper();
+    window.scrollTo(0, 0);
 
     let welcomeDiv = document.createElement("div");
     welcomeDiv.id = "welcomeDiv";
@@ -25,6 +26,7 @@ function renderAppWelcome() {
 
 function spelInfo() {
     clearWrapper();
+    window.scrollTo(0, 0);
 
     let audio = new Audio('ljud/SoundtrackOfficial.mp3');
     audio.loop = true;

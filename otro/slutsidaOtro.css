@@ -28,12 +28,21 @@
     /*default img shape and size*/
 
     img {
-        padding-top: 5vw;
-        padding-bottom: 5vw;
-        height: 75vw;
+        margin-top: 5vw;
+        margin-bottom: 7vw;
+        height: 80vw;
         width: 48vw;
         border-radius: 50vw;
         object-fit: cover;
+    }
+
+    .squareIMG {
+        height: 75vw;
+        width: 80vw;
+        border-radius: 15vw;
+        object-fit: cover;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
     }
 
     #imgEnd {
@@ -58,13 +67,28 @@
         font-size: 5.5vw;
         line-height: 1.5;
         color: rgb(253 243 205);
+        width: 80vw;
+        text-align: left;
+    }
+
+    #wrapper h4 {
+        font-size: 8vw;
+        font-family: "TrajanPro-Regular";
+        color: rgb(253 243 205);
+    }
+
+    #delpElement {
+        font-family: "TrajanPro-Regular";
+        font-size: 7vw;
+        text-align: center;
+        color: rgb(253 243 205);
     }
 
     /*BUTTON FOR YELLOW AND GREEN*/
 
     .buttonYellow {
         background-color: rgb(234 200 129);
-        width: 45vw;
+        width: 55vw;
         height: 13vw;
         display: flex;
         justify-content: center;

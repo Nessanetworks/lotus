@@ -1,8 +1,8 @@
 inputField(function () {
     const userCode = document.getElementById("codeInput").value.trim().toLowerCase();
 
-    if (userCode === "gris") {
-        window.location.href = "../traffickingDel8/traff8.html";
+    if (userCode === "1303") {
+        window.location.href = "../slutsidaTraff.html";
     } else {
         felKod();
     }

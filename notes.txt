@@ -10,34 +10,62 @@ Reuse audio button I HTML:
     <img src="../bilder/ReplayG.png" alt="Refresh" id="refreshButton"
                     style="cursor: pointer; height: 12vw; width: 12vw; display: none;"/>
 
-SKAL VÄRE I JS FILENE, det kaller på funktionen.
-
-    let muteButton = document.getElementById("muteButton");
-    let refreshButton = document.getElementById("refreshButton");
-
-    //Gör en ny sån här när du vill ha ny audio, och call the function again.
-    let audio = new Audio("../ljud/SoundtrackOfficial.mp3");
-    audio.loop = true;
-    audio.volume = 0.5;
-
-    setupMuteButton(audio, muteButton, refreshButton);
 
 
 
-MÅSTE FIXAS, detaljer:
 
+MÅSTE FIXAS:
+
+
+Mindre viktigt:
 - Bilder på karaktärarna, vilka gäller? Måste croppas och läggas till namn.
-- Bild på del 8, otrohet, första bild - ser dålig ut.
 - Måste lägga in dialog för oraklet.
-- 
+- Kan vara värt att markera dialog ännu mer, så att det sticker ut när man läser.
+- Lägg in ljud för otro del 9, traff del 8 och 9.
+- Del 5, Trafficking, bilder på de tre olika föremålen:   
+
+
+Mycket viktigt inför Onsdag:
 
 
 
 
+Checklista att alla sidor är gjorda, BILDER, TEXT, INPUTFÄLT KODER OCH INSTRUKTIONER. 
+När något är checkat, så betyder det att ALLT är klart inför användertestet
 
-Denna helgen:
+    DEL 1 KLAR
+    DEL 2 KLAR 
+    DEL 3 KLAR 
 
-Sist: Rätta knapper på del 1 oraklet. AVVAKTAR
+    DEL 4 OTRO KLAR
+    DEL 5 OTRO KLAR
+    DEL 6 OTRO KLAR
+    DEL 7 OTRO KLAR 
+    DEL 8 OTRO KLAR - saknar dock spelmekanik, men kod och förklaring är på plats.
+    DEL 9 OTRO KLAR FÅ IN BILDER PÅ TITANIC
+
+    DEL 4 TRAFF KLAR 
+    DEL 5 TRAFF KLAR
+    DEL 6 TRAFF KLAR
+    DEL 7 TRAFF KLAR
+    DEL 8 TRAFF KLAR
+    DEL 9 TRAFF KLAR FÅ IN BILDER PÅ TITANIC
+        - DEL 9 VAL: GÅ EMELLAN KLAR
+        - DEL 9 VAL: STÅ KVAR KLAR 
+
+
+
+KLAR
+
+- Del 3, gör det tydligt att spelarna ska gå till gjuteriet. 
+- Del 4, Otrohet, - lägg till instruktion till spelaren i början av sidan, att de måste gå till SVT. Se karta.
+- Lägga in i del 6, Orkanen dramatik, Macbeth / edited by Roma Gill., (19, 27) (46, 15) (46, 15) (27, 20)
+- Byta död i vattnet bild.
+- CHECKA UT knapp på sista sidan - lägga in för trafficking
+- Lägg in resterande text för del 9, Otrohet, del 8 och 9, trafficking. 
+- Lägg in bilder där det behövs, på sista sidorna. 
+- Byt ut bilderna på karaktärarna, nästan klar, måste byta ut alla Jonathan och Kim bilder.
+- Bild på del 8, otrohet, första bild - ser dålig ut.
 
 
 

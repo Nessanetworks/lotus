@@ -1,4 +1,4 @@
-inputField(function () {
+/*inputField(function () {
     const userCode = document.getElementById("codeInput").value.trim().toLowerCase();
 
     if (userCode === "gris") {
@@ -6,7 +6,28 @@ inputField(function () {
     } else {
         felKod();
     }
+}, "inputDiv");*/
+
+inputField(function () {
+    const userCode = document.getElementById("codeInput").value
+        .trim()
+        .toLowerCase()
+
+
+    const korrektaSvar = [
+        "sigurdur sudmundssons",
+        "sigurdur",
+        "sudmundssons",
+        "sigurdur sudmundsson"
+    ];
+
+    if (korrektaSvar.includes(userCode)) {
+        window.location.href = "../otrohetDel8/otro8.html";
+    } else {
+        felKod();
+    }
 }, "inputDiv");
+
 
 // FÖR MUSIK
 

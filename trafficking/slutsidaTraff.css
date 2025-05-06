@@ -27,12 +27,21 @@
     /*default img shape and size*/
 
     img {
-        padding-top: 5vw;
-        padding-bottom: 5vw;
-        height: 75vw;
+        margin-top: 5vw;
+        margin-bottom: 7vw;
+        height: 80vw;
         width: 48vw;
         border-radius: 50vw;
         object-fit: cover;
+    }
+
+    .squareIMG {
+        height: 75vw;
+        width: 80vw;
+        border-radius: 15vw;
+        object-fit: cover;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
     }
 
     #imgEnd {
@@ -52,11 +61,23 @@
         gap: 5vw;
     }
 
+    #wrapper h4 {
+        font-size: 8vw;
+        font-family: "TrajanPro-Regular";
+    }
+
+    #delpElement {
+        font-family: "TrajanPro-Regular";
+        font-size: 7vw;
+        text-align: center;
+    }
+
     #wrapper p {
         font-family: 'Athelas-Regular';
         font-size: 5.5vw;
         line-height: 1.5;
-
+        text-align: left;
+        width: 80vw;
     }
 
     /*BUTTON FOR YELLOW AND GREEN*/
@@ -119,6 +140,50 @@
 
     #lastP {
         margin-bottom: 10vw;
+    }
+
+    #lastPR {
+        color: rgb(145, 68, 91);
+    }
+
+
+
+
+
+    #val {
+        display: flex;
+        gap: 3vw;
+    }
+
+    #valBild {
+        height: 30vw;
+        width: 30vw;
+        border-radius: 0;
+    }
+
+    .buttonGreenLil {
+        background-color: rgb(26 62 26);
+        width: 40vw;
+        height: 13vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        border-radius: 50px;
+        box-shadow: rgb(13, 31, 13) 5px 5px 6px;
+    }
+
+    .buttonGreenLil h6 {
+        position: relative;
+        top: 0.6vw;
+        color: rgb(234 200 129);
+        font-family: "TrajanPro-Regular";
+        font-size: 4vw;
+    }
+
+    .buttonGreenLil:focus {
+        background-color: rgb(12, 35, 12);
+        box-shadow: none;
     }
 
 

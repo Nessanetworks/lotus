@@ -132,7 +132,7 @@
     }
 
     #inputDivTraff p {
-        color: rgb(255, 170, 194);
+        color: rgb(253, 183, 203);
     }
 
     #submitButton h5 {
@@ -199,6 +199,12 @@
 
     }
 
+    #tavlan {
+        object-fit: fill;
+        border-radius: 10vw;
+        width: 75vw;
+        height: 100vw;
+    }
 
 
 

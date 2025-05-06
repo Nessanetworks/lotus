@@ -33,7 +33,7 @@ function slutsidaOtro() {
     const endButton = document.createElement('button');
     endButton.classList.add('buttonYellow');
     const endButtonText = document.createElement('h6');
-    endButtonText.textContent = 'AVSLUTA';
+    endButtonText.textContent = 'CHECKA UT';
     endButton.appendChild(endButtonText);
     endButton.onclick = () => {
         window.location.href = '../index.html';

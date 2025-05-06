@@ -8,7 +8,7 @@ audio.loop = true;
 audio.volume = 0.5;
 
 
-setupMuteButton(audio, muteButton, refreshButton);
+//setupMuteButton(audio, muteButton, refreshButton);
 
 
 
