@@ -17,16 +17,15 @@ Reuse audio button I HTML:
 MÅSTE FIXAS:
 
 
+
 Mindre viktigt:
-- Bilder på karaktärarna, vilka gäller? Måste croppas och läggas till namn. KLAR
+
 
 - Måste lägga in dialog för oraklet.
-- Kan vara värt att markera dialog ännu mer, så att det sticker ut när man läser.
 - Lägg in ljud för otro del 9, traff del 8 och 9.
-- Del 5, Trafficking, bilder på de tre olika föremålen:   
 
 
-Mycket viktigt inför Onsdag:
+
 
 
 
@@ -58,7 +57,7 @@ När något är checkat, så betyder det att ALLT är klart inför användertest
 
 
 
-KLAR
+FERDIG KLAPPET OG KLART
 
 - Del 3, gör det tydligt att spelarna ska gå till gjuteriet. 
 - Del 4, Otrohet, - lägg till instruktion till spelaren i början av sidan, att de måste gå till SVT. Se karta.
@@ -69,18 +68,11 @@ KLAR
 - Lägg in bilder där det behövs, på sista sidorna. 
 - Byt ut bilderna på karaktärarna, nästan klar, måste byta ut alla Jonathan och Kim bilder.
 - Bild på del 8, otrohet, första bild - ser dålig ut.
+- Du måste fixa de delar som du fixade för mappen lotusTEST7. Chapter 2 text i inputdiv, chapter2.js lösenords fras.
 
 - Lägg in fler bilder på Mia genom berättelserna. 
 - Se över ALLA sidor och spelmekaniken. 
-
-
-
-
-
-
-
-
-DU ER FERDIG MED:
+- Del 5, Trafficking, bilder på de tre olika föremålen: silver kjedja med metallisk ring. En intressant kopp. zippo tändare, lock med s inristad.
 
 - Ferdig audio som du kan bruke, med eller uten refresh knapp!
 - Ferdig med standardside for OTROHET, VAL 2 INKLUSIVE INPUTFIELD til denne
@@ -95,6 +87,8 @@ DU ER FERDIG MED:
 - Sen: kolla om man kan ta tillbaka play knappen när audion har slutat helt. FIXAT!
 - Helt sist: lägg på server och kolla läget Iphone/android. KLART
 - Därefter: Fadea ut ljudfiler som låter abrupta. 
+- Bilder på karaktärarna, vilka gäller? Måste croppas och läggas till namn. KLAR
+- Kan vara värt att markera dialog ännu mer, så att det sticker ut när man läser.
 
 DESSA BEHÖVER FADEAS:
         - seaTurtle längre och fadeas. KLAR!!
