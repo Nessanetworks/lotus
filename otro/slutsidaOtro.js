@@ -1,3 +1,13 @@
+
+let muteButton4 = document.getElementById("muteButton3");
+let audio = new Audio("../ljud/lotussWTF.mp3");
+
+audio.volume = 0.5;
+
+audioButton4(audio, muteButton4, 3);
+
+
+
 function slutsidaOtro() {
     clearWrapper();
     window.scrollTo(0, 0);

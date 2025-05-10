@@ -170,10 +170,10 @@ function audioButton3(audio, muteButton, maxLoops = 0) {
     muteButton.onclick = function () {
         if (audio.paused) {
             audio.play();
-            muteButton.src = "../bilder/PauseG.svg";
+            muteButton.src = "../bilder/PauseB.svg";
         } else {
             audio.pause();
-            muteButton.src = "../bilder/PlayG.svg";
+            muteButton.src = "../bilder/PlayB.svg";
         }
     };
 
@@ -183,7 +183,7 @@ function audioButton3(audio, muteButton, maxLoops = 0) {
             audio.currentTime = 0;
             audio.play();
         } else {
-            muteButton.src = "../bilder/PlayG.svg";
+            muteButton.src = "../bilder/PlayB.svg";
             loopCount = 0;
         }
     });
@@ -214,6 +214,32 @@ function audioButton4(audio, muteButton, maxLoops = 0) {
             audio.play();
         } else {
             muteButton.src = "../bilder/PlayG.svg";
+            loopCount = 0;
+        }
+    });
+}
+
+
+function audioButton4(audio, muteButton, maxLoops = 0) {
+    let loopCount = 0;
+
+    muteButton.onclick = function () {
+        if (audio.paused) {
+            audio.play();
+            muteButton.src = "../bilder/PauseY.svg";
+        } else {
+            audio.pause();
+            muteButton.src = "../bilder/PlayY.svg";
+        }
+    };
+
+    audio.addEventListener("ended", function () {
+        if (loopCount < maxLoops) {
+            loopCount++;
+            audio.currentTime = 0;
+            audio.play();
+        } else {
+            muteButton.src = "../bilder/PlayY.svg";
             loopCount = 0;
         }
     });

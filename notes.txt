@@ -15,7 +15,12 @@ Reuse audio button I HTML:
 
 
 MÅSTE FIXAS:
-
+- Ändra bakgrundsfärg till den blå.
+- Lägga till namn under alla karaktärsbilder. 
+- Fixa del 2 med lappen grejerna, och fixa delen i trafficking med lägenhetsnumren.
+- Fixa så att man måste gå till titanic för att kunna läsa slutet av berättelsen.
+- Om du hinner - drop down för notisljuden (verkligen inte prio dock). 
+- Fixa till bilden på del 5, trafficking, zippo tändare bilden
 
 
 Mindre viktigt:

@@ -16,8 +16,7 @@
 @media (max-width: 500px) {
 
     body {
-        background-color: rgb(26 62 26);
-        ;
+        background-color: rgb(17, 45, 63);
         background-image: url('../bilder/backgroundGreen25.png');
         background-position: center;
         background-repeat: repeat;
@@ -144,6 +143,14 @@
 
     #lastP {
         margin-bottom: 10vw;
+    }
+
+    #kar h4 {
+        margin: 0;
+        text-align: center;
+        font-size: 5vw;
+        font-family: "TrajanPro-Regular";
+        margin-bottom: 5vw;
     }
 
 

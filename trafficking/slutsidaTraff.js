@@ -57,7 +57,10 @@ function goBetween() {
     const wrapper = document.getElementById('wrapper');
 
     wrapper.innerHTML += `
-       <img src="../bilder/miaa.webp" alt="Mia">
+       <div id="kar">
+            <img src="../bilder/miaa.webp" alt="Mia">
+            <h4>Mia</h4>
+        </div>
 
         <p>Hon måste göra något. Nu är hennes chans.
             Mia stormar fram från sitt gömställe.
@@ -105,7 +108,10 @@ function stanna() {
 
     wrapper.innerHTML += `
 
-        <img src="../bilder/miaa.webp" alt="Mia">
+        <div id="kar">
+            <img src="../bilder/miaa.webp" alt="Mia">
+            <h4>Mia</h4>
+        </div>
         
         <p>Hon står där - frusen. Handlingslös. Hon vet att hon borde göra något, men rädslan håller henne tillbaka.</p>
 
@@ -121,7 +127,6 @@ function stanna() {
             balans. Deras kroppar går över kanten, och ett kvinnoskrik hörs innan det överröstas av ett mansrop - innan
             båda rösterna avbryts av en smäll när människokroppar kolliderar med kall och våt sten.</p>
         
-            <h6>Ljud - skrik, kommer</h6>
 
         <p>Nu kan hennes ben röra sig - när det redan är för sent.</p>
 

@@ -55,7 +55,7 @@
     }
 
     #submitButton {
-        background-color: rgb(26 62 26);
+        background-color: rgb(17, 45, 63);
         width: 45vw;
         height: 13vw;
         display: flex;
@@ -197,7 +197,7 @@
         object-fit: fill;
         border-radius: 0;
         border-radius: 10vw;
-        background-color: rgba(26, 62, 26, 0.866);
+        background-color: rgba(17, 45, 63, 0.827);
         margin-bottom: 20vw;
         margin-top: 10vw;
     }
@@ -211,6 +211,14 @@
         width: 25vw;
         height: 25vw;
         border-radius: 0;
+    }
+
+    #kar h4 {
+        margin: 0;
+        text-align: center;
+        font-size: 5vw;
+        font-family: "TrajanPro-Regular";
+        margin-bottom: 5vw;
     }
 
 }
