@@ -50,14 +50,16 @@ function restOfText() {
     newInputDiv.id = "inputDivTraff";
     newInputDiv.innerHTML = `
         <img src="../../bilder/LoggaROSA.png" alt="">
-        <p>Ny gåta här, som tvingar spelaren att ta sig till titanic innan de kan spela vidare.</p>
+        <p>Förbi mig till höger det hårda havet marscherar, här är jag fast mellan detta och ________. </p>
     `;
     restOf.appendChild(newInputDiv);
 
     inputField(function () {
         const userCode = document.getElementById("codeInput").value.trim().toLowerCase();
 
-        if (userCode === "gris") {
+        const korrektaSvar = ["sten", "stenarna", "stenen", "stenen på titanic", "stenerna på titanic"];
+
+        if (korrektaSvar.includes(userCode)) {
             window.location.href = "../slutsidaTraff.html";
         } else {
             felKod();

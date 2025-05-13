@@ -11,7 +11,7 @@
 inputField(function () {
     const userCode = document.getElementById("codeInput").value.trim().toLowerCase();
 
-    const korrektaSvar = ["tårta", "tårtan", "en tårta"];
+    const korrektaSvar = ["no return", "noreturn", "ingen återvändo"];
 
     if (korrektaSvar.includes(userCode)) {
         window.location.href = "../otrohetDel7/otro7.html";

@@ -11,7 +11,7 @@
 inputField(function () {
     const userCode = document.getElementById("codeInput").value.trim().toLowerCase();
 
-    const korrektaSvar = ["vera"];
+    const korrektaSvar = ["Vera är i fara", "Vera is in danger", "Vera är i fara."];
 
     if (korrektaSvar.includes(userCode)) {
         window.location.href = "../traffickingDel7/traff7.html";

@@ -12,8 +12,8 @@ function renderAppWelcome() {
 
     welcomeDiv.innerHTML = `
         <div id="del1Div">
-            <img id="loggaWelcomeIMG" src="bilder/LoggaGUL.png" alt="Gul Logga">
-            <img id="poster" src="bilder/live.webp" alt="Intro bild">
+            <!--<img id="loggaWelcomeIMG" src="bilder/LoggaGUL.png" alt="Gul Logga">-->
+            <img id="poster" src="bilder/postern.png" alt="Intro bild">
             <p id="welcomeHeadline">MALMÖ EDITION</p>
         </div>
 

@@ -15,19 +15,18 @@ Reuse audio button I HTML:
 
 
 MÅSTE FIXAS:
-- Ändra bakgrundsfärg till den blå.
-- Lägga till namn under alla karaktärsbilder. 
-- Fixa del 2 med lappen grejerna, och fixa delen i trafficking med lägenhetsnumren.
-- Fixa så att man måste gå till titanic för att kunna läsa slutet av berättelsen.
-- Om du hinner - drop down för notisljuden (verkligen inte prio dock). 
-- Fixa till bilden på del 5, trafficking, zippo tändare bilden
+- Ändra bakgrundsfärg till den blå. - KLART
+- Lägga till namn under alla karaktärsbilder. - KLART
+- Fixa del 2 med lappen grejerna, och fixa delen i trafficking med lägenhetsnumren. - KLART
 
-
-Mindre viktigt:
+- Fixa så att man måste gå till titanic för att kunna läsa slutet av berättelsen. 
+- Om du hinner - drop down för notisljuden (verkligen inte prio dock). - KLART
+- Fixa till bilden på del 5, trafficking, zippo tändare bilden - KLART
 
 
 - Måste lägga in dialog för oraklet.
-- Lägg in ljud för otro del 9, traff del 8 och 9.
+
+- Lägg in ljud för otro del 9, traff del 8 och 9. - KLART
 
 
 

@@ -1,7 +1,7 @@
 inputField(function () {
     const userCode = document.getElementById("codeInput").value.trim().toLowerCase();
 
-    if (userCode === "nästa") {
+    if (userCode === "mördad") {
         window.location.href = "../slutsidaOtro.html";
     } else {
         felKod();
