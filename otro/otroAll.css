@@ -228,4 +228,14 @@
         margin-top: 2vw;
     }
 
+
+
+
+    #restOf {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
 }

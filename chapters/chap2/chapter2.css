@@ -59,7 +59,7 @@
         justify-content: center;
         align-items: center;
         width: 80vw;
-        height: 75vw;
+        height: 100vw;
         object-fit: fill;
         border-radius: 0;
         border-radius: 10vw;
@@ -75,6 +75,18 @@
         font-weight: lighter;
         line-height: 1.5;
         margin: 0;
+        font-family: "Athelas-Regular";
+        font-size: 5vw;
+    }
+
+    #message2 h4 {
+        text-align: center;
+        color: rgb(255, 245, 215);
+        padding: 2vw;
+        line-height: 1.5;
+        margin: 0;
+        font-size: 5vw;
+        font-family: "TrajanPro-Regular";
     }
 
     #message2 img {

@@ -11,9 +11,7 @@
 inputField(function () {
     const userCode = document.getElementById("codeInput").value.trim().toLowerCase();
 
-    const korrektaSvar = ["no return", "noreturn", "ingen återvändo"];
-
-    if (korrektaSvar.includes(userCode)) {
+    if (userCode === "mördad") {
         window.location.href = "../otrohetDel7/otro7.html";
     } else {
         felKod();

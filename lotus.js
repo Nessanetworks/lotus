@@ -12,15 +12,13 @@ function renderAppWelcome() {
 
     welcomeDiv.innerHTML = `
         <div id="del1Div">
-            <!--<img id="loggaWelcomeIMG" src="bilder/LoggaGUL.png" alt="Gul Logga">-->
-            <img id="poster" src="bilder/postern.png" alt="Intro bild">
-            <p id="welcomeHeadline">MALMÖ EDITION</p>
-        </div>
-
-        <div id="del3Div">
-            <p id="welcomeUnderText">Exklusiv semester - dödsfall - kaos. <br> Är du redo att avslöja sanningen?</p>
+            <!--<img id="poster" src="bilder/framsida_WL.webp" alt="Intro bild">-->
             <button class="buttonYellow" onclick="spelInfo()"><h6>START</h6></button>
         </div>
+
+        
+
+        
     `;
 }
 

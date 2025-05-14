@@ -71,7 +71,7 @@
     }
 
     #submitButton:focus {
-        background-color: rgb(12, 35, 12);
+        background-color: rgb(190, 171, 103);
         box-shadow: none;
     }
 

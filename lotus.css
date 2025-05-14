@@ -36,6 +36,10 @@
         object-fit: cover;
     }
 
+    #wrapper {
+        height: 100vw;
+    }
+
     .squareIMG {
         height: 75vw;
         width: 80vw;
@@ -72,58 +76,34 @@
 
     /*SLUT POPUP*/
 
-
-
-    /*FÖRSTA SIDAN*/
-
-    #welcomeDiv {
-        height: 100%;
-        width: 100%;
+    img#poster {
+        height: 217vw;
+        border-radius: 0;
+        width: 100vw;
+        margin-top: 0;
+        margin-bottom: 0;
+        object-fit: cover;
     }
 
     #del1Div {
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
-    }
-
-    #del1Div p {
-        font-size: 8vw;
-        font-family: "TrajanPro-Regular";
-        color: rgb(253 243 205);
-
-    }
-
-    #loggaWelcomeIMG {
-        height: 47vw;
-        width: 47vw;
-        margin-bottom: 0;
-        border-radius: 0;
-        padding-top: 0vw;
-        padding-bottom: 0vw;
-    }
-
-    #poster {
-        height: 110vw;
-        width: 80vw;
-        border-radius: 30px;
-        object-fit: cover;
-        margin-top: 20vw;
-    }
-
-    #del3Div {
-        display: flex;
-        flex-direction: column;
         justify-content: center;
-        align-items: center;
+        background-image: url(bilder/framsida_WL.webp);
+        height: 217vw;
+        width: 100vw;
+        background-size: cover;
     }
 
-    #del3Div p {
-        color: rgb(234 200 129);
-        font-family: "Athelas-Regular";
-        font-size: 5vw;
+    #del1Div button {
+        position: relative;
+        top: 80vw;
     }
+
+    /*FÖRSTA SIDAN*/
+
+
 
     /*SLUT FÖRSTA SIDA*/
 

@@ -1,10 +1,10 @@
 
-let muteButton4 = document.getElementById("muteButton3");
+let muteButton3 = document.getElementById("muteButton3");
 let audio = new Audio("../ljud/lotussWTF.mp3");
 
 audio.volume = 0.5;
 
-audioButton4(audio, muteButton4, 3);
+audioButton5(audio, muteButton3, 3);
 
 
 

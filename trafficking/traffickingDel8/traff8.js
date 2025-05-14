@@ -50,14 +50,15 @@ function restOfText() {
     newInputDiv.id = "inputDivTraff";
     newInputDiv.innerHTML = `
         <img src="../../bilder/LoggaROSA.png" alt="">
-        <p>Förbi mig till höger det hårda havet marscherar, här är jag fast mellan detta och ________. </p>
+        <p>På destinationen:
+        <br><br>Med blicket mot vattnet, här står du på grund. Namnet på svallet, kom se: ______</p>
     `;
     restOf.appendChild(newInputDiv);
 
     inputField(function () {
         const userCode = document.getElementById("codeInput").value.trim().toLowerCase();
 
-        const korrektaSvar = ["sten", "stenarna", "stenen", "stenen på titanic", "stenerna på titanic"];
+        const korrektaSvar = ["öresund", "oresund", "öresundståg", "öresundståget", "öresundsbron", "öresundbron", "öresundbro"];
 
         if (korrektaSvar.includes(userCode)) {
             window.location.href = "../slutsidaTraff.html";

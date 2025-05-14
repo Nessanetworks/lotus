@@ -1,7 +1,9 @@
 inputField(function () {
     const userCode = document.getElementById("codeInput").value.trim().toLowerCase();
 
-    if (userCode === "mördad") {
+    const korrektaSvar = ["öresund", "oresund", "öresundståg", "öresundståget", "öresundsbron", "öresundbron", "öresundbro"];
+
+    if (korrektaSvar.includes(userCode)) {
         window.location.href = "../slutsidaOtro.html";
     } else {
         felKod();
